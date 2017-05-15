@@ -2,4 +2,20 @@
 <Bucket
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x901a;&#x7528;&#x6587;&#x4ef6;&#x5b58;&#x50a8;&#x5668;&#x9879;&#x76ee;/HHQDevelopmentKit/&#x81ea;&#x5b9a;&#x4e49;&#x5206;&#x7c7b;/ImageCategory/UIImageView+HHQCategory.h"
+            timestampString = "516249706.329549"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

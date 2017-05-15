@@ -32,6 +32,8 @@
 		A5ED18951EC29F9C0049C6AC /* TextCategoryHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ED188A1EC29F9C0049C6AC /* TextCategoryHeader.m */; };
 		A5ED18961EC29F9C0049C6AC /* UITextField+HHQCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ED188C1EC29F9C0049C6AC /* UITextField+HHQCategory.m */; };
 		A5ED18971EC29F9C0049C6AC /* UITextView+HHQCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ED188E1EC29F9C0049C6AC /* UITextView+HHQCategory.m */; };
+		A5ED18B71EC2A83B0049C6AC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ED18B61EC2A83B0049C6AC /* HomeViewController.m */; };
+		A5ED192E1EC559090049C6AC /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ED192D1EC559090049C6AC /* UIViewController+BackButtonHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +87,10 @@
 		A5ED188C1EC29F9C0049C6AC /* UITextField+HHQCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HHQCategory.m"; sourceTree = "<group>"; };
 		A5ED188D1EC29F9C0049C6AC /* UITextView+HHQCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+HHQCategory.h"; sourceTree = "<group>"; };
 		A5ED188E1EC29F9C0049C6AC /* UITextView+HHQCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+HHQCategory.m"; sourceTree = "<group>"; };
+		A5ED18B51EC2A83B0049C6AC /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		A5ED18B61EC2A83B0049C6AC /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		A5ED192C1EC559090049C6AC /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
+		A5ED192D1EC559090049C6AC /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +159,8 @@
 				A5BAD35D1E6F96F000576217 /* LaunchScreen.storyboard */,
 				A5BAD3601E6F96F000576217 /* Info.plist */,
 				A5BAD34F1E6F96F000576217 /* Supporting Files */,
+				A5ED18B51EC2A83B0049C6AC /* HomeViewController.h */,
+				A5ED18B61EC2A83B0049C6AC /* HomeViewController.m */,
 			);
 			path = "通用文件存储器项目";
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 		A5ED18791EC29F9C0049C6AC /* 自定义分类 */ = {
 			isa = PBXGroup;
 			children = (
+				A5ED19281EC558230049C6AC /* UIViewControllerCategory */,
 				A5ED187A1EC29F9C0049C6AC /* CategoryHeader.h */,
 				A5ED187B1EC29F9C0049C6AC /* CategoryHeader.m */,
 				A5ED187C1EC29F9C0049C6AC /* ImageCategory */,
@@ -265,6 +274,15 @@
 				A5ED188E1EC29F9C0049C6AC /* UITextView+HHQCategory.m */,
 			);
 			path = TextCategory;
+			sourceTree = "<group>";
+		};
+		A5ED19281EC558230049C6AC /* UIViewControllerCategory */ = {
+			isa = PBXGroup;
+			children = (
+				A5ED192C1EC559090049C6AC /* UIViewController+BackButtonHandler.h */,
+				A5ED192D1EC559090049C6AC /* UIViewController+BackButtonHandler.m */,
+			);
+			name = UIViewControllerCategory;
 			sourceTree = "<group>";
 		};
 		FC82B2B4197499CF5CFCE449 /* Frameworks */ = {
@@ -415,8 +433,10 @@
 				A5ED18961EC29F9C0049C6AC /* UITextField+HHQCategory.m in Sources */,
 				A5BAD3511E6F96F000576217 /* main.m in Sources */,
 				A5ED186C1EC29D3F0049C6AC /* HHQScrollLoopView.m in Sources */,
+				A5ED18B71EC2A83B0049C6AC /* HomeViewController.m in Sources */,
 				A5ED188F1EC29F9C0049C6AC /* CategoryHeader.m in Sources */,
 				A5ED18931EC29F9C0049C6AC /* NSString+HHQCategory.m in Sources */,
+				A5ED192E1EC559090049C6AC /* UIViewController+BackButtonHandler.m in Sources */,
 				A5ED18951EC29F9C0049C6AC /* TextCategoryHeader.m in Sources */,
 				A53DE2B01E767AEA0038F600 /* DetailsViewController.m in Sources */,
 			);
