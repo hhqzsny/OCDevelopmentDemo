@@ -129,7 +129,7 @@
 
 - (void)btnClicked:(UIButton *)btn {
     NSInteger index = btn.tag - 100;
-    NSLog(@"%d",index);
+    NSLog(@"%ld",(long)index);
     DetailsViewController * detailsVC = [[DetailsViewController alloc] init];
     UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = item;
@@ -139,7 +139,7 @@
 }
 
 - (void)scrollLoopView:(HHQScrollLoopView *)scrollLoopView didSelectItemAtIndex:(NSInteger)index{
-    HHQLOG(@"点击了第%d行",index);
+    HHQLOG(@"点击了第%ld行",(long)index);
     
 }
 

@@ -35,7 +35,7 @@
     CGFloat arc = M_PI * 2.0f;
     
 
-    int numberOfVisibleItems = [self.collectionView numberOfItemsInSection:0 ];
+    NSInteger numberOfVisibleItems = [self.collectionView numberOfItemsInSection:0 ];
     
     attributes.center = CGPointMake(x + collection.frame.size.width/2 , collection.frame.size.height/2);
     

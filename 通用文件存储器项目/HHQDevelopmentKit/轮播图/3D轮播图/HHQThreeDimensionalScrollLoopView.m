@@ -77,7 +77,7 @@ static NSString *KCellIdentifier = @"KCellIdentifier";
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     
-    NSLog(@"%d",indexPath.item);
+    NSLog(@"%ld",(long)indexPath.item);
     if ([self.delegate respondsToSelector:@selector(threeDimensionalScrollLoopView:didSelectItemAtIndex:)]) {
         [self.delegate threeDimensionalScrollLoopView:self didSelectItemAtIndex:indexPath.item];
         
@@ -87,7 +87,7 @@ static NSString *KCellIdentifier = @"KCellIdentifier";
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
     float targetX = scrollView.contentOffset.x;
-    int numCount = [self.collectionView numberOfItemsInSection:0];
+    NSInteger numCount = [self.collectionView numberOfItemsInSection:0];
     float itemWidth = scrollView.frame.size.width;
     
     if (numCount>=3)
