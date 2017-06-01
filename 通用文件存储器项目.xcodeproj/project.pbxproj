@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		789A06BDE2639B666C78D54A /* libPods-通用文件存储器项目.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B85EF3B00B31EF406CABF4 /* libPods-通用文件存储器项目.a */; };
+		A5028BEA1ED55B33000B3567 /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A5028BE91ED55B33000B3567 /* UIViewController+BackButtonHandler.m */; };
+		A5028BF01ED55B8D000B3567 /* NSString+DecimalNumberString.m in Sources */ = {isa = PBXBuildFile; fileRef = A5028BEF1ED55B8D000B3567 /* NSString+DecimalNumberString.m */; };
+		A5028BF51ED55ED3000B3567 /* HHQPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5028BF41ED55ED3000B3567 /* HHQPlaceholderTextView.m */; };
+		A5028BFB1ED57979000B3567 /* ACTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5028BFA1ED57979000B3567 /* ACTextView.m */; };
+		A5028BFE1ED57A38000B3567 /* UIView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5028BFD1ED57A38000B3567 /* UIView+XMGExtension.m */; };
 		A53DE2AF1E767AEA0038F600 /* JDSKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53DE2AC1E767AEA0038F600 /* JDSKViewController.m */; };
 		A53DE2B01E767AEA0038F600 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53DE2AE1E767AEA0038F600 /* DetailsViewController.m */; };
 		A5BAD3511E6F96F000576217 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BAD3501E6F96F000576217 /* main.m */; };
@@ -33,13 +38,22 @@
 		A5ED18961EC29F9C0049C6AC /* UITextField+HHQCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ED188C1EC29F9C0049C6AC /* UITextField+HHQCategory.m */; };
 		A5ED18971EC29F9C0049C6AC /* UITextView+HHQCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ED188E1EC29F9C0049C6AC /* UITextView+HHQCategory.m */; };
 		A5ED18B71EC2A83B0049C6AC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ED18B61EC2A83B0049C6AC /* HomeViewController.m */; };
-		A5ED192E1EC559090049C6AC /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ED192D1EC559090049C6AC /* UIViewController+BackButtonHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		23B85EF3B00B31EF406CABF4 /* libPods-通用文件存储器项目.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-通用文件存储器项目.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33076406D7F02C2791036929 /* Pods-通用文件存储器项目.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-通用文件存储器项目.debug.xcconfig"; path = "Pods/Target Support Files/Pods-通用文件存储器项目/Pods-通用文件存储器项目.debug.xcconfig"; sourceTree = "<group>"; };
 		5E6E99435084602B5B6E99A4 /* Pods-通用文件存储器项目.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-通用文件存储器项目.release.xcconfig"; path = "Pods/Target Support Files/Pods-通用文件存储器项目/Pods-通用文件存储器项目.release.xcconfig"; sourceTree = "<group>"; };
+		A5028BE81ED55B33000B3567 /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
+		A5028BE91ED55B33000B3567 /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
+		A5028BEE1ED55B8D000B3567 /* NSString+DecimalNumberString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DecimalNumberString.h"; sourceTree = "<group>"; };
+		A5028BEF1ED55B8D000B3567 /* NSString+DecimalNumberString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DecimalNumberString.m"; sourceTree = "<group>"; };
+		A5028BF31ED55ED3000B3567 /* HHQPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHQPlaceholderTextView.h; sourceTree = "<group>"; };
+		A5028BF41ED55ED3000B3567 /* HHQPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHQPlaceholderTextView.m; sourceTree = "<group>"; };
+		A5028BF71ED57542000B3567 /* ACTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACTextView.h; sourceTree = "<group>"; };
+		A5028BFA1ED57979000B3567 /* ACTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACTextView.m; sourceTree = "<group>"; };
+		A5028BFC1ED57A38000B3567 /* UIView+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGExtension.h"; sourceTree = "<group>"; };
+		A5028BFD1ED57A38000B3567 /* UIView+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGExtension.m"; sourceTree = "<group>"; };
 		A52B0F461E724ED60080345B /* HHQPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHQPrefixHeader.pch; sourceTree = "<group>"; };
 		A53DE2AB1E767AEA0038F600 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
 		A53DE2AC1E767AEA0038F600 /* JDSKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDSKViewController.m; sourceTree = "<group>"; };
@@ -89,8 +103,6 @@
 		A5ED188E1EC29F9C0049C6AC /* UITextView+HHQCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+HHQCategory.m"; sourceTree = "<group>"; };
 		A5ED18B51EC2A83B0049C6AC /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		A5ED18B61EC2A83B0049C6AC /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		A5ED192C1EC559090049C6AC /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
-		A5ED192D1EC559090049C6AC /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +126,41 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A5028BE71ED55B33000B3567 /* UIViewControllerCategory */ = {
+			isa = PBXGroup;
+			children = (
+				A5028BE81ED55B33000B3567 /* UIViewController+BackButtonHandler.h */,
+				A5028BE91ED55B33000B3567 /* UIViewController+BackButtonHandler.m */,
+			);
+			path = UIViewControllerCategory;
+			sourceTree = "<group>";
+		};
+		A5028BF11ED55E67000B3567 /* 自定义类 */ = {
+			isa = PBXGroup;
+			children = (
+				A5028BF21ED55E67000B3567 /* HHQPlaceholderTextView */,
+			);
+			path = "自定义类";
+			sourceTree = "<group>";
+		};
+		A5028BF21ED55E67000B3567 /* HHQPlaceholderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				A5028BF71ED57542000B3567 /* ACTextView.h */,
+				A5028BFA1ED57979000B3567 /* ACTextView.m */,
+				A5028BFC1ED57A38000B3567 /* UIView+XMGExtension.h */,
+				A5028BFD1ED57A38000B3567 /* UIView+XMGExtension.m */,
+				A5028BF31ED55ED3000B3567 /* HHQPlaceholderTextView.h */,
+				A5028BF41ED55ED3000B3567 /* HHQPlaceholderTextView.m */,
+			);
+			path = HHQPlaceholderTextView;
+			sourceTree = "<group>";
+		};
 		A52B0F451E724E6E0080345B /* HHQDevelopmentKit */ = {
 			isa = PBXGroup;
 			children = (
 				A52B0F461E724ED60080345B /* HHQPrefixHeader.pch */,
+				A5028BF11ED55E67000B3567 /* 自定义类 */,
 				A5ED18791EC29F9C0049C6AC /* 自定义分类 */,
 				A5ED18721EC29E550049C6AC /* 网络请求工具 */,
 				A5ED186E1EC29DE10049C6AC /* 地图坐标系统变换 */,
@@ -229,9 +272,9 @@
 		A5ED18791EC29F9C0049C6AC /* 自定义分类 */ = {
 			isa = PBXGroup;
 			children = (
-				A5ED19281EC558230049C6AC /* UIViewControllerCategory */,
 				A5ED187A1EC29F9C0049C6AC /* CategoryHeader.h */,
 				A5ED187B1EC29F9C0049C6AC /* CategoryHeader.m */,
+				A5028BE71ED55B33000B3567 /* UIViewControllerCategory */,
 				A5ED187C1EC29F9C0049C6AC /* ImageCategory */,
 				A5ED18831EC29F9C0049C6AC /* StringCategory */,
 				A5ED18881EC29F9C0049C6AC /* TextCategory */,
@@ -255,6 +298,8 @@
 		A5ED18831EC29F9C0049C6AC /* StringCategory */ = {
 			isa = PBXGroup;
 			children = (
+				A5028BEE1ED55B8D000B3567 /* NSString+DecimalNumberString.h */,
+				A5028BEF1ED55B8D000B3567 /* NSString+DecimalNumberString.m */,
 				A5ED18841EC29F9C0049C6AC /* NSString+HHQCategory.h */,
 				A5ED18851EC29F9C0049C6AC /* NSString+HHQCategory.m */,
 				A5ED18861EC29F9C0049C6AC /* StringCategoryHeader.h */,
@@ -274,15 +319,6 @@
 				A5ED188E1EC29F9C0049C6AC /* UITextView+HHQCategory.m */,
 			);
 			path = TextCategory;
-			sourceTree = "<group>";
-		};
-		A5ED19281EC558230049C6AC /* UIViewControllerCategory */ = {
-			isa = PBXGroup;
-			children = (
-				A5ED192C1EC559090049C6AC /* UIViewController+BackButtonHandler.h */,
-				A5ED192D1EC559090049C6AC /* UIViewController+BackButtonHandler.m */,
-			);
-			name = UIViewControllerCategory;
 			sourceTree = "<group>";
 		};
 		FC82B2B4197499CF5CFCE449 /* Frameworks */ = {
@@ -427,18 +463,22 @@
 				A5ED18711EC29DE10049C6AC /* HHQLocationTransform.m in Sources */,
 				A5ED18691EC29D3F0049C6AC /* CustomLayout.m in Sources */,
 				A5ED18771EC29E550049C6AC /* HHQNetRequestTool.m in Sources */,
+				A5028BFB1ED57979000B3567 /* ACTextView.m in Sources */,
+				A5028BF01ED55B8D000B3567 /* NSString+DecimalNumberString.m in Sources */,
 				A5ED18911EC29F9C0049C6AC /* UIImage+HHQCategory.m in Sources */,
 				A5ED18921EC29F9C0049C6AC /* UIImageView+HHQCategory.m in Sources */,
 				A5BAD3541E6F96F000576217 /* AppDelegate.m in Sources */,
+				A5028BFE1ED57A38000B3567 /* UIView+XMGExtension.m in Sources */,
 				A5ED18961EC29F9C0049C6AC /* UITextField+HHQCategory.m in Sources */,
 				A5BAD3511E6F96F000576217 /* main.m in Sources */,
 				A5ED186C1EC29D3F0049C6AC /* HHQScrollLoopView.m in Sources */,
 				A5ED18B71EC2A83B0049C6AC /* HomeViewController.m in Sources */,
 				A5ED188F1EC29F9C0049C6AC /* CategoryHeader.m in Sources */,
 				A5ED18931EC29F9C0049C6AC /* NSString+HHQCategory.m in Sources */,
-				A5ED192E1EC559090049C6AC /* UIViewController+BackButtonHandler.m in Sources */,
+				A5028BEA1ED55B33000B3567 /* UIViewController+BackButtonHandler.m in Sources */,
 				A5ED18951EC29F9C0049C6AC /* TextCategoryHeader.m in Sources */,
 				A53DE2B01E767AEA0038F600 /* DetailsViewController.m in Sources */,
+				A5028BF51ED55ED3000B3567 /* HHQPlaceholderTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,6 +605,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2U2UU32G84;
 				INFOPLIST_FILE = "通用文件存储器项目/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test720.---------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -578,6 +619,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2U2UU32G84;
 				INFOPLIST_FILE = "通用文件存储器项目/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test720.---------";
 				PRODUCT_NAME = "$(TARGET_NAME)";

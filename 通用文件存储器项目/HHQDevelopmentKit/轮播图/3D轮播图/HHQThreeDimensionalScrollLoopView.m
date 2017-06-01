@@ -107,7 +107,7 @@ static NSString *KCellIdentifier = @"KCellIdentifier";
 {
     //无限循环....
     float targetX = _scrollView.contentOffset.x;
-    int numCount = [self.collectionView numberOfItemsInSection:0];
+    NSInteger numCount = [self.collectionView numberOfItemsInSection:0];
     float itemWidth = _scrollView.frame.size.width;
     
     if (numCount>=3)

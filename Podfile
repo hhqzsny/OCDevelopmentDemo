@@ -8,5 +8,6 @@ target '通用文件存储器项目' do
   # Pods for 通用文件存储器项目
     pod 'AFNetworking'
     pod 'SDWebImage'
-
+    pod 'Masonry'
+    pod 'YYKit'
 end

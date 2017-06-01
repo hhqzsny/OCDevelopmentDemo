@@ -20,6 +20,7 @@
 #import <UIImageView+WebCache.h>
 #import "UITextView+HHQCategory.h"
 #import "UITextField+HHQCategory.h"
+#import <Masonry.h>
 
 /*本APP颜色设置*/
 #define APPCOLOR HHQ_RGB_COLOR(255, 53, 61) //APP主题色
