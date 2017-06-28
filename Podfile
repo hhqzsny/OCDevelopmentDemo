@@ -10,4 +10,7 @@ target '通用文件存储器项目' do
     pod 'SDWebImage'
     pod 'Masonry'
     pod 'YYKit'
+    pod 'IQKeyboardManager'
+    pod 'MJRefresh'
+    
 end
