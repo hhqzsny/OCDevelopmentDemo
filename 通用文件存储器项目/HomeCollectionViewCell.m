@@ -25,7 +25,19 @@
 }
 
 - (void)createUI {
+    _iconImageView = [UIImageView new];
+    _introduceLabel = [UILabel new];
     
+    [self.contentView addSubview:_iconImageView];
+    [self.contentView addSubview:_introduceLabel];
+    
+    [_iconImageView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.top.mas_equalTo(self.contentView).offset(5);
+        make.right.mas_equalTo(self.contentView).offset(-5);
+        make.height.mas_equalTo(_iconImageView.mas_width).multipliedBy(16.0/9);
+    }];
+    _iconImageView.backgroundColor = [UIColor redColor];
+    _iconImageView.image = [UIImage imageNamed:@"bgImage"];
 }
 
 @end
