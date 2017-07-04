@@ -46,6 +46,7 @@
 		A5FFF7911F0B68C000287A13 /* 视图-自适应-流水布局.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5FFF7901F0B68C000287A13 /* 视图-自适应-流水布局.gif */; };
 		A5FFF79A1F0B80CF00287A13 /* ThreeDimensionalShufflingFigureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FFF7991F0B80CF00287A13 /* ThreeDimensionalShufflingFigureViewController.m */; };
 		A5FFF79C1F0B88E200287A13 /* 视图-3D轮播.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5FFF79B1F0B88E200287A13 /* 视图-3D轮播.gif */; };
+		A5FFF79E1F0B8E4E00287A13 /* demoPictures.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5FFF79D1F0B8E4E00287A13 /* demoPictures.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -124,6 +125,7 @@
 		A5FFF7981F0B80CF00287A13 /* ThreeDimensionalShufflingFigureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeDimensionalShufflingFigureViewController.h; sourceTree = "<group>"; };
 		A5FFF7991F0B80CF00287A13 /* ThreeDimensionalShufflingFigureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeDimensionalShufflingFigureViewController.m; sourceTree = "<group>"; };
 		A5FFF79B1F0B88E200287A13 /* 视图-3D轮播.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "视图-3D轮播.gif"; sourceTree = "<group>"; };
+		A5FFF79D1F0B8E4E00287A13 /* demoPictures.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demoPictures.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -367,6 +369,7 @@
 		A5BAD34F1E6F96F000576217 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A5FFF79D1F0B8E4E00287A13 /* demoPictures.gif */,
 				A5BAD3501E6F96F000576217 /* main.m */,
 				A5BAD3521E6F96F000576217 /* AppDelegate.h */,
 				A5BAD3531E6F96F000576217 /* AppDelegate.m */,
@@ -558,6 +561,7 @@
 				A5BAD35F1E6F96F000576217 /* LaunchScreen.storyboard in Resources */,
 				A5FFF7911F0B68C000287A13 /* 视图-自适应-流水布局.gif in Resources */,
 				A5BAD35C1E6F96F000576217 /* Assets.xcassets in Resources */,
+				A5FFF79E1F0B8E4E00287A13 /* demoPictures.gif in Resources */,
 				A5CADDFA1F04CD400049299E /* 首页model.plist in Resources */,
 				A5BAD35A1E6F96F000576217 /* Main.storyboard in Resources */,
 			);
