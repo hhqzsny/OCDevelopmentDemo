@@ -22,6 +22,7 @@
 #import "UITextField+HQCategory.h"
 #import <Masonry.h>
 #import <MJRefresh.h>
+#import <UIImage+GIF.h>
 
 /*本APP颜色设置*/
 #define APPCOLOR HQ_RGB_COLOR(255, 53, 61) //APP主题色

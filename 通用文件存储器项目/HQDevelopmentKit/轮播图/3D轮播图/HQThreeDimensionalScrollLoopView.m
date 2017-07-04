@@ -51,6 +51,7 @@ static NSString *KCellIdentifier = @"KCellIdentifier";
     self.collectionView.delegate = self;
     self.collectionView.pagingEnabled = YES;
     // [self.collectionView setContentOffset:CGPointMake(width * 2, 0.0F)];
+    //self.collectionView.bounces = NO;
     self.collectionView.dataSource = self;
     self.collectionView.showsVerticalScrollIndicator = NO;
     self.collectionView.showsHorizontalScrollIndicator = NO;
@@ -122,6 +123,11 @@ static NSString *KCellIdentifier = @"KCellIdentifier";
     }
     
 }
+
+//- (void)setBgViewArr:(NSArray<UIView *> *)bgViewArr {
+//    _bgViewArr = bgViewArr;
+//    [self.collectionView reloadData];
+//}
 
 - (void)dealloc {
     [self.timer invalidate];

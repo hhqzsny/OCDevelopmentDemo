@@ -36,9 +36,11 @@ void UncaughtExceptionHandler(NSException *exception) {
     //获得系统全局的导航栏
     UINavigationBar* navBar = [UINavigationBar appearance];//appearance 通过这个获得一个全局的单例对象
     //设置标题属性 ----  自身.导航控制器.导航条  setTitle设置标题文本的属性,下面设置的属性有 ：参数1：字体大小(bold是黑体)   参数2:标题前景色
-    [navBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont boldSystemFontOfSize:17],NSForegroundColorAttributeName:HQ_HEX_COLOR(0xffffff),}];
-    navBar.barTintColor = HQ_HEX_COLOR(0x171717);
+    [navBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont boldSystemFontOfSize:17],NSForegroundColorAttributeName:HQ_RANDOM_COLOR,}];
+    navBar.barTintColor = HQ_RANDOM_COLOR;
+    navBar.tintColor = HQ_RANDOM_COLOR;
     
+    [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -60) forBarMetrics:UIBarMetricsDefault];
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     UINavigationController *naviVC = [[UINavigationController alloc] initWithRootViewController:[[HomeViewController alloc] init]];
     

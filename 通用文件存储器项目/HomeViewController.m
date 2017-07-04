@@ -26,6 +26,7 @@ delegate:nil cancelButtonTitle:(buttonName) otherButtonTitles: nil];\
                                  UICollectionViewDataSourcePrefetching>
 
 @property (nonatomic,strong) UICollectionView *homeCollectionView;//首页收藏视图
+@property (nonatomic,strong) NSArray<SectionModel *> *demoModelArray;//小demo模型数组
 
 @end
 
@@ -38,6 +39,28 @@ static NSString *homeCollectionViewCellID = @"homeCollectionViewCellID";
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"首页";
    // [self setUpUI];
+    
+    void(^blockA)() = ^{
+        NSLog(@"just a block");
+    };
+    NSLog(@"%@", blockA);
+    
+    int value = 10;
+    void(^blockB)() = ^{
+        
+        NSLog(@"just a block === %d", value);
+    };
+    NSLog(@"%@", blockB);
+    
+    void(^ __weak blockC)() = ^{
+        NSLog(@"just a block === %d", value);
+    };
+    
+    NSLog(@"%@", blockC);
+
+    NSLog(@"%f",nextafter(0, 1) * 10000000000);
+    
+    
     [self createUI];
 }
 
@@ -137,26 +160,41 @@ static NSString *homeCollectionViewCellID = @"homeCollectionViewCellID";
 
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
-    return 19;
+    return self.demoModelArray.count;
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return 19;
+    return self.demoModelArray[section].modelArray.count;
 }
 
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    NSString *className = self.demoModelArray[indexPath.section].modelArray[indexPath.item].controllerNameStr;
+    [self.navigationController pushViewController:[NSClassFromString(className) new] animated:YES];
+}
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     HomeCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:homeCollectionViewCellID forIndexPath:indexPath];
     cell.contentView.backgroundColor = HQ_RANDOM_COLOR;
+    cell.model = self.demoModelArray[indexPath.section].modelArray[indexPath.item];
     return cell;
 }
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section {
-    if (section == 0) {
-        return CGSizeMake(0, 0);
-    } else {
+
         return CGSizeMake(SCREEN_WIDTH, 60);
-    }
+
+}
+
+- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
+    UICollectionReusableView *headView = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"UICollectionViewHeader"                                       forIndexPath:indexPath];
+    headView.backgroundColor = HQ_RANDOM_COLOR;
+    
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 60)];
+    label.textAlignment = NSTextAlignmentCenter;
+    label.text = self.demoModelArray[indexPath.section].sectionName;
+    [headView addSubview:label];
+    
+    return headView;
 }
 
 - (UICollectionView *)homeCollectionView {
@@ -165,11 +203,13 @@ static NSString *homeCollectionViewCellID = @"homeCollectionViewCellID";
         flowLayout.minimumLineSpacing = 16;
         flowLayout.minimumInteritemSpacing = 8;
         flowLayout.sectionInset = UIEdgeInsetsMake(8, 8, 8, 8);
-        flowLayout.itemSize = CGSizeMake((SCREEN_WIDTH - 32) / 3, (SCREEN_WIDTH - 32) * 2 / 3);
+//        flowLayout.itemSize = CGSizeMake((SCREEN_WIDTH - 32) / 3, (SCREEN_WIDTH - 32) * 2 / 3);
+        flowLayout.estimatedItemSize = CGSizeMake((SCREEN_WIDTH - 32) / 3, (SCREEN_WIDTH - 32) * 2 / 3);
         _homeCollectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:flowLayout];
         _homeCollectionView.delegate = self;
         _homeCollectionView.dataSource = self;
         _homeCollectionView.backgroundColor = [UIColor grayColor];
+        [_homeCollectionView registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"UICollectionViewHeader"];
         [_homeCollectionView registerClass:[HomeCollectionViewCell class] forCellWithReuseIdentifier:homeCollectionViewCellID];
     }
     
@@ -177,7 +217,12 @@ static NSString *homeCollectionViewCellID = @"homeCollectionViewCellID";
 }
 
 
-
+- (NSArray<SectionModel *> *)demoModelArray {
+    if (!_demoModelArray) {
+        _demoModelArray = [HomeModel homeModelArrayWithPlist:@"首页model.plist"];
+    }
+    return _demoModelArray;
+}
 
 
 

@@ -50,7 +50,7 @@
         textView.text = [textView.text substringToIndex:textViewWords];
         self.remainingWordsLabel.text = @"剩余0字";
     } else {
-        self.remainingWordsLabel.text = [NSString stringWithFormat:@"剩余%u字",_maxNumberWords - textViewWords];
+        self.remainingWordsLabel.text = [NSString stringWithFormat:@"剩余%lu字",_maxNumberWords - textViewWords];
     }
     
 }

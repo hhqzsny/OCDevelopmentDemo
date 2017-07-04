@@ -37,7 +37,15 @@
 		A5BAD35A1E6F96F000576217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5BAD3581E6F96F000576217 /* Main.storyboard */; };
 		A5BAD35C1E6F96F000576217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5BAD35B1E6F96F000576217 /* Assets.xcassets */; };
 		A5BAD35F1E6F96F000576217 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5BAD35D1E6F96F000576217 /* LaunchScreen.storyboard */; };
+		A5CADDF81F04A48A0049299E /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CADDF71F04A48A0049299E /* HomeModel.m */; };
+		A5CADDFA1F04CD400049299E /* 首页model.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5CADDF91F04CD400049299E /* 首页model.plist */; };
+		A5CADE031F04D7D60049299E /* ViewAdaptiveFlowLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CADE021F04D7D60049299E /* ViewAdaptiveFlowLayoutViewController.m */; };
 		A5ED18B71EC2A83B0049C6AC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ED18B61EC2A83B0049C6AC /* HomeViewController.m */; };
+		A5FFF78C1F0B3B4900287A13 /* ViewAdaptiveFlowLayoutCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FFF78B1F0B3B4900287A13 /* ViewAdaptiveFlowLayoutCollectionViewCell.m */; };
+		A5FFF78F1F0B604D00287A13 /* ViewAdaptiveFlowLayoutModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FFF78E1F0B604D00287A13 /* ViewAdaptiveFlowLayoutModel.m */; };
+		A5FFF7911F0B68C000287A13 /* 视图-自适应-流水布局.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5FFF7901F0B68C000287A13 /* 视图-自适应-流水布局.gif */; };
+		A5FFF79A1F0B80CF00287A13 /* ThreeDimensionalShufflingFigureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FFF7991F0B80CF00287A13 /* ThreeDimensionalShufflingFigureViewController.m */; };
+		A5FFF79C1F0B88E200287A13 /* 视图-3D轮播.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5FFF79B1F0B88E200287A13 /* 视图-3D轮播.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -101,8 +109,21 @@
 		A5BAD35B1E6F96F000576217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5BAD35E1E6F96F000576217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5BAD3601E6F96F000576217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5CADDF61F04A48A0049299E /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		A5CADDF71F04A48A0049299E /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		A5CADDF91F04CD400049299E /* 首页model.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "首页model.plist"; sourceTree = "<group>"; };
+		A5CADE011F04D7D60049299E /* ViewAdaptiveFlowLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewAdaptiveFlowLayoutViewController.h; sourceTree = "<group>"; };
+		A5CADE021F04D7D60049299E /* ViewAdaptiveFlowLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewAdaptiveFlowLayoutViewController.m; sourceTree = "<group>"; };
 		A5ED18B51EC2A83B0049C6AC /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		A5ED18B61EC2A83B0049C6AC /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		A5FFF78A1F0B3B4900287A13 /* ViewAdaptiveFlowLayoutCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewAdaptiveFlowLayoutCollectionViewCell.h; sourceTree = "<group>"; };
+		A5FFF78B1F0B3B4900287A13 /* ViewAdaptiveFlowLayoutCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewAdaptiveFlowLayoutCollectionViewCell.m; sourceTree = "<group>"; };
+		A5FFF78D1F0B604D00287A13 /* ViewAdaptiveFlowLayoutModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewAdaptiveFlowLayoutModel.h; sourceTree = "<group>"; };
+		A5FFF78E1F0B604D00287A13 /* ViewAdaptiveFlowLayoutModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewAdaptiveFlowLayoutModel.m; sourceTree = "<group>"; };
+		A5FFF7901F0B68C000287A13 /* 视图-自适应-流水布局.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "视图-自适应-流水布局.gif"; sourceTree = "<group>"; };
+		A5FFF7981F0B80CF00287A13 /* ThreeDimensionalShufflingFigureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeDimensionalShufflingFigureViewController.h; sourceTree = "<group>"; };
+		A5FFF7991F0B80CF00287A13 /* ThreeDimensionalShufflingFigureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeDimensionalShufflingFigureViewController.m; sourceTree = "<group>"; };
+		A5FFF79B1F0B88E200287A13 /* 视图-3D轮播.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "视图-3D轮播.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,6 +301,7 @@
 		A59F9BDA1F0379BA00A8A250 /* 主页 */ = {
 			isa = PBXGroup;
 			children = (
+				A5CADDFB1F04D1BB0049299E /* 效果展示 */,
 				A59F9BDB1F0379DE00A8A250 /* models */,
 				A59F9BDC1F0379F600A8A250 /* views */,
 				A59F9BDD1F037A0400A8A250 /* controllers */,
@@ -290,6 +312,8 @@
 		A59F9BDB1F0379DE00A8A250 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				A5CADDF61F04A48A0049299E /* HomeModel.h */,
+				A5CADDF71F04A48A0049299E /* HomeModel.m */,
 			);
 			name = models;
 			sourceTree = "<group>";
@@ -350,8 +374,114 @@
 				A5BAD35B1E6F96F000576217 /* Assets.xcassets */,
 				A5BAD35D1E6F96F000576217 /* LaunchScreen.storyboard */,
 				A5BAD3601E6F96F000576217 /* Info.plist */,
+				A5CADDF91F04CD400049299E /* 首页model.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5CADDFB1F04D1BB0049299E /* 效果展示 */ = {
+			isa = PBXGroup;
+			children = (
+				A5CADDFC1F04D1F40049299E /* 视图 */,
+			);
+			name = "效果展示";
+			sourceTree = "<group>";
+		};
+		A5CADDFC1F04D1F40049299E /* 视图 */ = {
+			isa = PBXGroup;
+			children = (
+				A5FFF7931F0B7FBC00287A13 /* 3D轮播图 */,
+				A5CADDFD1F04D5A90049299E /* 自适应流布局 */,
+			);
+			name = "视图";
+			sourceTree = "<group>";
+		};
+		A5CADDFD1F04D5A90049299E /* 自适应流布局 */ = {
+			isa = PBXGroup;
+			children = (
+				A5FFF7921F0B6B0900287A13 /* supporting */,
+				A5CADE001F04D6100049299E /* model */,
+				A5CADDFF1F04D5F30049299E /* view */,
+				A5CADDFE1F04D5DF0049299E /* controller */,
+			);
+			name = "自适应流布局";
+			sourceTree = "<group>";
+		};
+		A5CADDFE1F04D5DF0049299E /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5CADE011F04D7D60049299E /* ViewAdaptiveFlowLayoutViewController.h */,
+				A5CADE021F04D7D60049299E /* ViewAdaptiveFlowLayoutViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		A5CADDFF1F04D5F30049299E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A5FFF78A1F0B3B4900287A13 /* ViewAdaptiveFlowLayoutCollectionViewCell.h */,
+				A5FFF78B1F0B3B4900287A13 /* ViewAdaptiveFlowLayoutCollectionViewCell.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		A5CADE001F04D6100049299E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A5FFF78D1F0B604D00287A13 /* ViewAdaptiveFlowLayoutModel.h */,
+				A5FFF78E1F0B604D00287A13 /* ViewAdaptiveFlowLayoutModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		A5FFF7921F0B6B0900287A13 /* supporting */ = {
+			isa = PBXGroup;
+			children = (
+				A5FFF7901F0B68C000287A13 /* 视图-自适应-流水布局.gif */,
+			);
+			name = supporting;
+			sourceTree = "<group>";
+		};
+		A5FFF7931F0B7FBC00287A13 /* 3D轮播图 */ = {
+			isa = PBXGroup;
+			children = (
+				A5FFF7971F0B7FF900287A13 /* supporting */,
+				A5FFF7961F0B7FE500287A13 /* model */,
+				A5FFF7951F0B7FDC00287A13 /* view */,
+				A5FFF7941F0B7FD200287A13 /* controller */,
+			);
+			name = "3D轮播图";
+			sourceTree = "<group>";
+		};
+		A5FFF7941F0B7FD200287A13 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5FFF7981F0B80CF00287A13 /* ThreeDimensionalShufflingFigureViewController.h */,
+				A5FFF7991F0B80CF00287A13 /* ThreeDimensionalShufflingFigureViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		A5FFF7951F0B7FDC00287A13 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		A5FFF7961F0B7FE500287A13 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		A5FFF7971F0B7FF900287A13 /* supporting */ = {
+			isa = PBXGroup;
+			children = (
+				A5FFF79B1F0B88E200287A13 /* 视图-3D轮播.gif */,
+			);
+			name = supporting;
 			sourceTree = "<group>";
 		};
 		FC82B2B4197499CF5CFCE449 /* Frameworks */ = {
@@ -424,8 +554,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5FFF79C1F0B88E200287A13 /* 视图-3D轮播.gif in Resources */,
 				A5BAD35F1E6F96F000576217 /* LaunchScreen.storyboard in Resources */,
+				A5FFF7911F0B68C000287A13 /* 视图-自适应-流水布局.gif in Resources */,
 				A5BAD35C1E6F96F000576217 /* Assets.xcassets in Resources */,
+				A5CADDFA1F04CD400049299E /* 首页model.plist in Resources */,
 				A5BAD35A1E6F96F000576217 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,13 +624,16 @@
 				A59005611F025D800040AD9B /* ImageCategoryHeader.m in Sources */,
 				A59005661F025D800040AD9B /* StringCategoryHeader.m in Sources */,
 				A59005651F025D800040AD9B /* NSString+HQCategory.m in Sources */,
+				A5CADE031F04D7D60049299E /* ViewAdaptiveFlowLayoutViewController.m in Sources */,
 				A59005681F025D800040AD9B /* UITextField+HQCategory.m in Sources */,
 				A59005601F025D800040AD9B /* CategoryHeader.m in Sources */,
 				A590055F1F025D800040AD9B /* ZCNetRequestTool.m in Sources */,
 				A59005721F025D800040AD9B /* ScrollLoopCollectionViewCell.m in Sources */,
 				A5BAD3541E6F96F000576217 /* AppDelegate.m in Sources */,
 				A590055C1F025D800040AD9B /* UILabel+YBAttributeTextTapAction.m in Sources */,
+				A5CADDF81F04A48A0049299E /* HomeModel.m in Sources */,
 				A590056D1F025D800040AD9B /* UIView+XMGExtension.m in Sources */,
+				A5FFF78C1F0B3B4900287A13 /* ViewAdaptiveFlowLayoutCollectionViewCell.m in Sources */,
 				A590056A1F025D800040AD9B /* UIViewController+BackButtonHandler.m in Sources */,
 				A59005691F025D800040AD9B /* UITextView+HQCategory.m in Sources */,
 				A5BAD3511E6F96F000576217 /* main.m in Sources */,
@@ -507,8 +643,10 @@
 				A5ED18B71EC2A83B0049C6AC /* HomeViewController.m in Sources */,
 				A59005671F025D800040AD9B /* TextCategoryHeader.m in Sources */,
 				A59005621F025D800040AD9B /* UIImage+HQCategory.m in Sources */,
+				A5FFF78F1F0B604D00287A13 /* ViewAdaptiveFlowLayoutModel.m in Sources */,
 				A590056E1F025D800040AD9B /* CustomLayout.m in Sources */,
 				A59005701F025D800040AD9B /* ThreeDimensionalCell.m in Sources */,
+				A5FFF79A1F0B80CF00287A13 /* ThreeDimensionalShufflingFigureViewController.m in Sources */,
 				A59005641F025D800040AD9B /* NSString+DecimalNumberString.m in Sources */,
 				A590056B1F025D800040AD9B /* ACTextView.m in Sources */,
 				A590056C1F025D800040AD9B /* HQPlaceholderTextView.m in Sources */,

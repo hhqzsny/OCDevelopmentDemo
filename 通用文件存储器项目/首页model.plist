@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>sectionName</key>
+		<string>视图</string>
+		<key>modelArray</key>
+		<array>
+			<dict>
+				<key>controllerNameStr</key>
+				<string>ThreeDimensionalShufflingFigureViewController</string>
+				<key>imageNameStr</key>
+				<string>视图-3D轮播</string>
+				<key>introduceStr</key>
+				<string>用collectionView实现3D轮播效果</string>
+			</dict>
+			<dict>
+				<key>controllerNameStr</key>
+				<string>ViewAdaptiveFlowLayoutViewController</string>
+				<key>imageNameStr</key>
+				<string>视图-自适应-流水布局</string>
+				<key>introduceStr</key>
+				<string>collectionView自动适配高度宽度的流水布局效果演示</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
