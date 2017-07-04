@@ -4,4 +4,4 @@ show development kit effect
 ====
 效果图
 ____
-![](https://github.com/hhqzsny/OCDevelopmentDemo/raw/master/通用文件存储器项目/demoPictures.gif)
+![image](https://github.com/hhqzsny/OCDevelopmentDemo/raw/master/通用文件存储器项目/demoPictures.gif)
