@@ -25,8 +25,8 @@ static NSString *KCellIdentifier = @"KCellIdentifier";
     if (self) {
         [self setUpUI];
         
-//        _timer = [NSTimer timerWithTimeInterval:2 target:self selector:@selector(timerClicked:) userInfo:nil repeats:YES];
-//        [[NSRunLoop currentRunLoop] addTimer:_timer forMode:NSDefaultRunLoopMode];
+        _timer = [NSTimer timerWithTimeInterval:2 target:self selector:@selector(timerClicked:) userInfo:nil repeats:YES];
+        [[NSRunLoop currentRunLoop] addTimer:_timer forMode:NSDefaultRunLoopMode];
     }
     return self;
 }

@@ -55,7 +55,7 @@ NSString *const cellID = @"cellID";
         flowLayout.minimumLineSpacing = 8;
         flowLayout.minimumInteritemSpacing = 8;
         //设置预估size以让系统自动根据约束计算cell的size
-        flowLayout.estimatedItemSize = CGSizeMake(SCREEN_WIDTH / 4, SCREEN_WIDTH / 3);
+        flowLayout.estimatedItemSize = UICollectionViewFlowLayoutAutomaticSize;
         
         //collectionView设置
         _collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:flowLayout];

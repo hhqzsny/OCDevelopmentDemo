@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		789A06BDE2639B666C78D54A /* libPods-通用文件存储器项目.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B85EF3B00B31EF406CABF4 /* libPods-通用文件存储器项目.a */; };
+		A532A67E1F0CCB8400AC63B3 /* AdaptiveWaterfallsFlowLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A532A67D1F0CCB8400AC63B3 /* AdaptiveWaterfallsFlowLayoutViewController.m */; };
+		A532A6811F0CCD1D00AC63B3 /* HQCustomFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A532A6801F0CCD1D00AC63B3 /* HQCustomFlowLayout.m */; };
+		A532A6841F0DCC0600AC63B3 /* AdaptiveWaterfallsFlowLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A532A6831F0DCC0600AC63B3 /* AdaptiveWaterfallsFlowLayoutCell.m */; };
 		A590055C1F025D800040AD9B /* UILabel+YBAttributeTextTapAction.m in Sources */ = {isa = PBXBuildFile; fileRef = A59005231F025D800040AD9B /* UILabel+YBAttributeTextTapAction.m */; };
 		A590055D1F025D800040AD9B /* HQLocationTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = A59005261F025D800040AD9B /* HQLocationTransform.m */; };
 		A590055E1F025D800040AD9B /* HQNetRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A59005291F025D800040AD9B /* HQNetRequestTool.m */; };
@@ -40,6 +43,8 @@
 		A5CADDF81F04A48A0049299E /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CADDF71F04A48A0049299E /* HomeModel.m */; };
 		A5CADDFA1F04CD400049299E /* 首页model.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5CADDF91F04CD400049299E /* 首页model.plist */; };
 		A5CADE031F04D7D60049299E /* ViewAdaptiveFlowLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CADE021F04D7D60049299E /* ViewAdaptiveFlowLayoutViewController.m */; };
+		A5CC3CB61F0E15F300DA8ECF /* 视图-自适应瀑布流.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5CC3CB51F0E15F300DA8ECF /* 视图-自适应瀑布流.gif */; };
+		A5CC3CBF1F0E19E000DA8ECF /* AttributeTextTapActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CC3CBE1F0E19E000DA8ECF /* AttributeTextTapActionViewController.m */; };
 		A5ED18B71EC2A83B0049C6AC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ED18B61EC2A83B0049C6AC /* HomeViewController.m */; };
 		A5FFF78C1F0B3B4900287A13 /* ViewAdaptiveFlowLayoutCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FFF78B1F0B3B4900287A13 /* ViewAdaptiveFlowLayoutCollectionViewCell.m */; };
 		A5FFF78F1F0B604D00287A13 /* ViewAdaptiveFlowLayoutModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FFF78E1F0B604D00287A13 /* ViewAdaptiveFlowLayoutModel.m */; };
@@ -53,6 +58,12 @@
 		23B85EF3B00B31EF406CABF4 /* libPods-通用文件存储器项目.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-通用文件存储器项目.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33076406D7F02C2791036929 /* Pods-通用文件存储器项目.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-通用文件存储器项目.debug.xcconfig"; path = "Pods/Target Support Files/Pods-通用文件存储器项目/Pods-通用文件存储器项目.debug.xcconfig"; sourceTree = "<group>"; };
 		5E6E99435084602B5B6E99A4 /* Pods-通用文件存储器项目.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-通用文件存储器项目.release.xcconfig"; path = "Pods/Target Support Files/Pods-通用文件存储器项目/Pods-通用文件存储器项目.release.xcconfig"; sourceTree = "<group>"; };
+		A532A67C1F0CCB8400AC63B3 /* AdaptiveWaterfallsFlowLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdaptiveWaterfallsFlowLayoutViewController.h; sourceTree = "<group>"; };
+		A532A67D1F0CCB8400AC63B3 /* AdaptiveWaterfallsFlowLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdaptiveWaterfallsFlowLayoutViewController.m; sourceTree = "<group>"; };
+		A532A67F1F0CCD1D00AC63B3 /* HQCustomFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQCustomFlowLayout.h; sourceTree = "<group>"; };
+		A532A6801F0CCD1D00AC63B3 /* HQCustomFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQCustomFlowLayout.m; sourceTree = "<group>"; };
+		A532A6821F0DCC0600AC63B3 /* AdaptiveWaterfallsFlowLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdaptiveWaterfallsFlowLayoutCell.h; sourceTree = "<group>"; };
+		A532A6831F0DCC0600AC63B3 /* AdaptiveWaterfallsFlowLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdaptiveWaterfallsFlowLayoutCell.m; sourceTree = "<group>"; };
 		A59005211F025D800040AD9B /* HQPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQPrefixHeader.pch; sourceTree = "<group>"; };
 		A59005221F025D800040AD9B /* UILabel+YBAttributeTextTapAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YBAttributeTextTapAction.h"; sourceTree = "<group>"; };
 		A59005231F025D800040AD9B /* UILabel+YBAttributeTextTapAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YBAttributeTextTapAction.m"; sourceTree = "<group>"; };
@@ -115,6 +126,9 @@
 		A5CADDF91F04CD400049299E /* 首页model.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "首页model.plist"; sourceTree = "<group>"; };
 		A5CADE011F04D7D60049299E /* ViewAdaptiveFlowLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewAdaptiveFlowLayoutViewController.h; sourceTree = "<group>"; };
 		A5CADE021F04D7D60049299E /* ViewAdaptiveFlowLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewAdaptiveFlowLayoutViewController.m; sourceTree = "<group>"; };
+		A5CC3CB51F0E15F300DA8ECF /* 视图-自适应瀑布流.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "视图-自适应瀑布流.gif"; sourceTree = "<group>"; };
+		A5CC3CBD1F0E19E000DA8ECF /* AttributeTextTapActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributeTextTapActionViewController.h; sourceTree = "<group>"; };
+		A5CC3CBE1F0E19E000DA8ECF /* AttributeTextTapActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributeTextTapActionViewController.m; sourceTree = "<group>"; };
 		A5ED18B51EC2A83B0049C6AC /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		A5ED18B61EC2A83B0049C6AC /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		A5FFF78A1F0B3B4900287A13 /* ViewAdaptiveFlowLayoutCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewAdaptiveFlowLayoutCollectionViewCell.h; sourceTree = "<group>"; };
@@ -147,6 +161,52 @@
 				5E6E99435084602B5B6E99A4 /* Pods-通用文件存储器项目.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A532A6771F0CCA9300AC63B3 /* 自适应瀑布流 */ = {
+			isa = PBXGroup;
+			children = (
+				A532A67B1F0CCB0100AC63B3 /* supporting */,
+				A532A67A1F0CCAF600AC63B3 /* model */,
+				A532A6791F0CCAEF00AC63B3 /* view */,
+				A532A6781F0CCAE300AC63B3 /* controller */,
+			);
+			name = "自适应瀑布流";
+			sourceTree = "<group>";
+		};
+		A532A6781F0CCAE300AC63B3 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A532A67C1F0CCB8400AC63B3 /* AdaptiveWaterfallsFlowLayoutViewController.h */,
+				A532A67D1F0CCB8400AC63B3 /* AdaptiveWaterfallsFlowLayoutViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		A532A6791F0CCAEF00AC63B3 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A532A67F1F0CCD1D00AC63B3 /* HQCustomFlowLayout.h */,
+				A532A6801F0CCD1D00AC63B3 /* HQCustomFlowLayout.m */,
+				A532A6821F0DCC0600AC63B3 /* AdaptiveWaterfallsFlowLayoutCell.h */,
+				A532A6831F0DCC0600AC63B3 /* AdaptiveWaterfallsFlowLayoutCell.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		A532A67A1F0CCAF600AC63B3 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		A532A67B1F0CCB0100AC63B3 /* supporting */ = {
+			isa = PBXGroup;
+			children = (
+				A5CC3CB51F0E15F300DA8ECF /* 视图-自适应瀑布流.gif */,
+			);
+			name = supporting;
 			sourceTree = "<group>";
 		};
 		A59005201F025D800040AD9B /* HQDevelopmentKit */ = {
@@ -385,6 +445,7 @@
 		A5CADDFB1F04D1BB0049299E /* 效果展示 */ = {
 			isa = PBXGroup;
 			children = (
+				A5CC3CB71F0E190500DA8ECF /* 扩展 */,
 				A5CADDFC1F04D1F40049299E /* 视图 */,
 			);
 			name = "效果展示";
@@ -393,6 +454,7 @@
 		A5CADDFC1F04D1F40049299E /* 视图 */ = {
 			isa = PBXGroup;
 			children = (
+				A532A6771F0CCA9300AC63B3 /* 自适应瀑布流 */,
 				A5FFF7931F0B7FBC00287A13 /* 3D轮播图 */,
 				A5CADDFD1F04D5A90049299E /* 自适应流布局 */,
 			);
@@ -435,6 +497,55 @@
 				A5FFF78E1F0B604D00287A13 /* ViewAdaptiveFlowLayoutModel.m */,
 			);
 			name = model;
+			sourceTree = "<group>";
+		};
+		A5CC3CB71F0E190500DA8ECF /* 扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				A5CC3CB81F0E194300DA8ECF /* 富文本点击效果 */,
+			);
+			name = "扩展";
+			sourceTree = "<group>";
+		};
+		A5CC3CB81F0E194300DA8ECF /* 富文本点击效果 */ = {
+			isa = PBXGroup;
+			children = (
+				A5CC3CBC1F0E197D00DA8ECF /* supporting */,
+				A5CC3CBB1F0E197600DA8ECF /* model */,
+				A5CC3CBA1F0E196F00DA8ECF /* view */,
+				A5CC3CB91F0E196500DA8ECF /* controller */,
+			);
+			name = "富文本点击效果";
+			sourceTree = "<group>";
+		};
+		A5CC3CB91F0E196500DA8ECF /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5CC3CBD1F0E19E000DA8ECF /* AttributeTextTapActionViewController.h */,
+				A5CC3CBE1F0E19E000DA8ECF /* AttributeTextTapActionViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		A5CC3CBA1F0E196F00DA8ECF /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		A5CC3CBB1F0E197600DA8ECF /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		A5CC3CBC1F0E197D00DA8ECF /* supporting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = supporting;
 			sourceTree = "<group>";
 		};
 		A5FFF7921F0B6B0900287A13 /* supporting */ = {
@@ -564,6 +675,7 @@
 				A5FFF79E1F0B8E4E00287A13 /* demoPictures.gif in Resources */,
 				A5CADDFA1F04CD400049299E /* 首页model.plist in Resources */,
 				A5BAD35A1E6F96F000576217 /* Main.storyboard in Resources */,
+				A5CC3CB61F0E15F300DA8ECF /* 视图-自适应瀑布流.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,10 +737,13 @@
 				A590055D1F025D800040AD9B /* HQLocationTransform.m in Sources */,
 				A590055E1F025D800040AD9B /* HQNetRequestTool.m in Sources */,
 				A590056F1F025D800040AD9B /* HQThreeDimensionalScrollLoopView.m in Sources */,
+				A532A6841F0DCC0600AC63B3 /* AdaptiveWaterfallsFlowLayoutCell.m in Sources */,
 				A59005611F025D800040AD9B /* ImageCategoryHeader.m in Sources */,
 				A59005661F025D800040AD9B /* StringCategoryHeader.m in Sources */,
 				A59005651F025D800040AD9B /* NSString+HQCategory.m in Sources */,
 				A5CADE031F04D7D60049299E /* ViewAdaptiveFlowLayoutViewController.m in Sources */,
+				A5CC3CBF1F0E19E000DA8ECF /* AttributeTextTapActionViewController.m in Sources */,
+				A532A6811F0CCD1D00AC63B3 /* HQCustomFlowLayout.m in Sources */,
 				A59005681F025D800040AD9B /* UITextField+HQCategory.m in Sources */,
 				A59005601F025D800040AD9B /* CategoryHeader.m in Sources */,
 				A590055F1F025D800040AD9B /* ZCNetRequestTool.m in Sources */,
@@ -644,6 +759,7 @@
 				A59005711F025D800040AD9B /* HQScrollLoopView.m in Sources */,
 				A59F9BE01F037B2C00A8A250 /* HomeCollectionViewCell.m in Sources */,
 				A59005631F025D800040AD9B /* UIImageView+HQCategory.m in Sources */,
+				A532A67E1F0CCB8400AC63B3 /* AdaptiveWaterfallsFlowLayoutViewController.m in Sources */,
 				A5ED18B71EC2A83B0049C6AC /* HomeViewController.m in Sources */,
 				A59005671F025D800040AD9B /* TextCategoryHeader.m in Sources */,
 				A59005621F025D800040AD9B /* UIImage+HQCategory.m in Sources */,

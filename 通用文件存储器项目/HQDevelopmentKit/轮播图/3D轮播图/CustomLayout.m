@@ -51,10 +51,10 @@
     
     
     CGFloat angleFloat = indexPath.row-x/width+1;
-    CGFloat radius = attributes.size.width/2/ tanf(arc/2.0f/numberOfVisibleItems);
+    CGFloat radius = attributes.size.width / 2 / tanf(arc/2.0f/numberOfVisibleItems);
     CGFloat angle = angleFloat/ numberOfVisibleItems * arc;
     transform = CATransform3DRotate(transform, angle, 0.0f, 1.0f, 0.0f);
-    transform = CATransform3DTranslate(transform, 0.f, 0.0f, radius);
+    transform = CATransform3DTranslate(transform, 0.0f, 0.0f, radius);
     attributes.transform3D = transform;
     
     NSInteger angleInt = (NSInteger)angleFloat;

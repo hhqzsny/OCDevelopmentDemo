@@ -4,9 +4,32 @@
 <array>
 	<dict>
 		<key>sectionName</key>
+		<string>扩展</string>
+		<key>modelArray</key>
+		<array>
+			<dict>
+				<key>controllerNameStr</key>
+				<string>AttributeTextTapActionViewController</string>
+				<key>imageNameStr</key>
+				<string>扩展-富文本点击效果</string>
+				<key>introduceStr</key>
+				<string>用一个UILabel的延展实现富文本的点击效果,并可获得点击文字所在脚标</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>sectionName</key>
 		<string>视图</string>
 		<key>modelArray</key>
 		<array>
+			<dict>
+				<key>controllerNameStr</key>
+				<string>AdaptiveWaterfallsFlowLayoutViewController</string>
+				<key>imageNameStr</key>
+				<string>视图-自适应瀑布流</string>
+				<key>introduceStr</key>
+				<string>用collectionView自适应高度的瀑布流演示效果</string>
+			</dict>
 			<dict>
 				<key>controllerNameStr</key>
 				<string>ThreeDimensionalShufflingFigureViewController</string>
