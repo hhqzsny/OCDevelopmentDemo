@@ -46,6 +46,7 @@
 		A5CC3CB61F0E15F300DA8ECF /* 视图-自适应瀑布流.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5CC3CB51F0E15F300DA8ECF /* 视图-自适应瀑布流.gif */; };
 		A5CC3CBF1F0E19E000DA8ECF /* AttributeTextTapActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CC3CBE1F0E19E000DA8ECF /* AttributeTextTapActionViewController.m */; };
 		A5ED18B71EC2A83B0049C6AC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ED18B61EC2A83B0049C6AC /* HomeViewController.m */; };
+		A5FAC98C1F5E4BD40065ED15 /* HQViewSwitcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FAC98B1F5E4BD40065ED15 /* HQViewSwitcher.m */; };
 		A5FFF78C1F0B3B4900287A13 /* ViewAdaptiveFlowLayoutCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FFF78B1F0B3B4900287A13 /* ViewAdaptiveFlowLayoutCollectionViewCell.m */; };
 		A5FFF78F1F0B604D00287A13 /* ViewAdaptiveFlowLayoutModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FFF78E1F0B604D00287A13 /* ViewAdaptiveFlowLayoutModel.m */; };
 		A5FFF7911F0B68C000287A13 /* 视图-自适应-流水布局.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5FFF7901F0B68C000287A13 /* 视图-自适应-流水布局.gif */; };
@@ -131,6 +132,8 @@
 		A5CC3CBE1F0E19E000DA8ECF /* AttributeTextTapActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributeTextTapActionViewController.m; sourceTree = "<group>"; };
 		A5ED18B51EC2A83B0049C6AC /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		A5ED18B61EC2A83B0049C6AC /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		A5FAC98A1F5E4BD40065ED15 /* HQViewSwitcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQViewSwitcher.h; sourceTree = "<group>"; };
+		A5FAC98B1F5E4BD40065ED15 /* HQViewSwitcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQViewSwitcher.m; sourceTree = "<group>"; };
 		A5FFF78A1F0B3B4900287A13 /* ViewAdaptiveFlowLayoutCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewAdaptiveFlowLayoutCollectionViewCell.h; sourceTree = "<group>"; };
 		A5FFF78B1F0B3B4900287A13 /* ViewAdaptiveFlowLayoutCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewAdaptiveFlowLayoutCollectionViewCell.m; sourceTree = "<group>"; };
 		A5FFF78D1F0B604D00287A13 /* ViewAdaptiveFlowLayoutModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewAdaptiveFlowLayoutModel.h; sourceTree = "<group>"; };
@@ -215,6 +218,8 @@
 				A59005211F025D800040AD9B /* HQPrefixHeader.pch */,
 				A59005221F025D800040AD9B /* UILabel+YBAttributeTextTapAction.h */,
 				A59005231F025D800040AD9B /* UILabel+YBAttributeTextTapAction.m */,
+				A5FAC98A1F5E4BD40065ED15 /* HQViewSwitcher.h */,
+				A5FAC98B1F5E4BD40065ED15 /* HQViewSwitcher.m */,
 				A59005241F025D800040AD9B /* 地图坐标系统变换 */,
 				A59005271F025D800040AD9B /* 网络请求工具 */,
 				A590052C1F025D800040AD9B /* 自定义分类 */,
@@ -757,6 +762,7 @@
 				A59005691F025D800040AD9B /* UITextView+HQCategory.m in Sources */,
 				A5BAD3511E6F96F000576217 /* main.m in Sources */,
 				A59005711F025D800040AD9B /* HQScrollLoopView.m in Sources */,
+				A5FAC98C1F5E4BD40065ED15 /* HQViewSwitcher.m in Sources */,
 				A59F9BE01F037B2C00A8A250 /* HomeCollectionViewCell.m in Sources */,
 				A59005631F025D800040AD9B /* UIImageView+HQCategory.m in Sources */,
 				A532A67E1F0CCB8400AC63B3 /* AdaptiveWaterfallsFlowLayoutViewController.m in Sources */,
